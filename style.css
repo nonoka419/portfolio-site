@@ -360,6 +360,26 @@ display: flex;
     color: #000000;
 }
 
+
+/* ハンバーガーボタン */
+
+.menu-btn {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 6px;
+    z-index: 10000;
+    position: relative;
+}
+
+.menu-btn span {
+    width: 28px;
+    height: 3px;
+    background: #666;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
 @media screen and (max-width: 768px) {
 
 .logo {
@@ -414,9 +434,40 @@ display: flex;
     .work-info {
         width: 100%;
     }
+
+.menu-btn {
+    display: flex;
 }
 
+.nav ul {
+    position: absolute;
+    top: 70px;
+    right: 0;
+    background: #ccc;
+    width: 200px;
+    flex-direction: column;
+    display: none;
+    padding: 20px 0;
+}
 
+.nav.active ul {
+    display: flex;
+}
+
+.menu-btn.active span:nth-child(1) {
+    transform: translateY(9px) rotate(45deg);
+  }
+
+  .menu-btn.active span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .menu-btn.active span:nth-child(3) {
+    transform: translateY(-9px) rotate(-45deg);
+  }
+
+
+}
 
 
 
