@@ -133,6 +133,7 @@ h1 {
     font-size: 48px;
     font-weight: 300;
     text-align: center;
+    margin-top: 60px;
     margin-bottom: 80px;
     color: #6f6f6f;
     
@@ -233,7 +234,7 @@ display: flex;
 .about-text {
     font-size: 16px;
     line-height: 1.9;
-    background: #c1c1c1;
+    background: #dfdfdf;
     padding: 20px;
     border-radius: 10px;
 }
@@ -250,6 +251,7 @@ display: flex;
 .works h2 {
     margin-bottom: 80px;
 }
+
 
 .btn {
     display: inline-block;
@@ -287,7 +289,7 @@ display: flex;
 
 .works-detail-main h1 {
     font-size: 48px;
-    color: #3b657b;
+    color: #6880d2;
     margin-top: 80px;
     margin-bottom: 20px;
 }
@@ -357,7 +359,7 @@ display: flex;
 }
 
 .works-details strong {
-    color: #000000;
+    color: #908900;
 }
 
 
@@ -381,6 +383,11 @@ display: flex;
 }
 
 @media screen and (max-width: 768px) {
+
+h1 {
+    font-size: 24px;
+    margin-top: 60px;
+}
 
 .logo {
     font-size: 20px;
@@ -427,16 +434,21 @@ display: flex;
         gap: 20px;
     }
 
-    .work-item img {
-        width: 80%;
-    }
+  .work-item img {
+            width: 80%;
+        }
 
-    .work-info {
-        width: 100%;
-    }
-
+  .work-info {
+            width: 100%;
+        }    
+        
+   .work-info h2 {
+    font-size: 20px;
+   }     
+      
 .menu-btn {
     display: flex;
+    left: 80px;
 }
 
 .nav ul {
@@ -447,7 +459,7 @@ display: flex;
     width: 200px;
     flex-direction: column;
     display: none;
-    padding: 20px 0;
+    padding: 20px 20px;
 }
 
 .nav.active ul {
@@ -468,11 +480,3 @@ display: flex;
 
 
 }
-
-
-
-
-
-
-
-
