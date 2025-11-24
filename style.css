@@ -184,7 +184,7 @@ nav ul {
 }
 
 .nav a:hover {
-  color: #b5a245;
+  color: #a63838;
 }
 
 
@@ -229,7 +229,7 @@ nav ul {
 
 .about-h2 span {
     display: block;
-    color: #444;
+    color: #666;
     font-size: 20px;
     font-weight: 400;
     margin-top: 5px;
@@ -333,7 +333,7 @@ display: flex;
 }
 
 .work-item img {
-    width: 400px;
+    width: 500px;
     border-radius: 8px;
     flex-shrink: 0;
 }
@@ -366,8 +366,8 @@ display: flex;
     margin-top: 12px;
     padding-left: 20px;
     list-style: none;
-    font-size: 15px;
-    color: #4e4e4e;
+    font-size: 18px;
+    color: #151515;
 }
 
 .works-details li {
@@ -375,7 +375,8 @@ display: flex;
 }
 
 .works-details strong {
-    color: #908900;
+    color: #a63838;
+    font-weight: 700;
 }
 
 
